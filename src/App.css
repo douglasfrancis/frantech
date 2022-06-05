@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  scroll-behavior:smooth;
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header Section */
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 10px 10px #cdcdcd;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 12vh;
+  z-index: 999;
+}
+
+#logo{
+  height: 120px;
+  display: inline;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px #cdcdcd;
+
+}
+
+nav{
+  position: absolute;
+  right: 20px;
+  top: 4vh;
+}
+a{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: grey;
+  transition: 0.2s ease-in;
+}
+
+a:hover{
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: black;
+  
+}
+#head-title{
+  font-weight: 200;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  left: 160px;
+  top: 3vh;
+}
+
+
+main{
+  position: absolute;
+  top: 12vh;
+  padding-top: 1rem;
+}
+
+
+
+section{
+  padding-top: 15vh;
+  min-height: 85vh;
+  width: 95vw;
+
+}
+
+/* Contact Section */
+
+#contact{
+  display: flex;
+  flex-direction: row;
+}
+
+form{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  
+}
+input, textarea{
+  border: 1px solid grey;
+  border-radius: 7px ;
+  height: 50px;
+  min-width: 400px ;
+  max-width: 500px;
+  background-color: unset;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+input:focus{
+  border: 3px solid #008080;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#lets-chat{
+  width: 50%;
+}
+
+.work-img{
+  width: 60vw;
+  margin: 0 20vw;
+  box-shadow: 5px 10px 10px #cdcdcd;;
+}
+
+
+
+h3{
+  font-weight: 200;
+}
+
+p{
+  font-weight: 300;
+}
+
+footer{
+  height: 10vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding: 1rem
+  
 }
