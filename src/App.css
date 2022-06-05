@@ -34,7 +34,7 @@ header{
 }
 .carousel{
   height: 80vh;
-  background-color: #288;
+  background-color: #228888;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,10 +51,10 @@ header{
 }
 
 .carousel-img{
-  position: relative;
-  max-width: 40% !important;
-  width: 40vw;
-  height: 40vw;
+height: 80vh; 
+width: auto !important;
+margin: 0 5vw !important;
+ 
 }
 
 .carousel-header{
@@ -63,12 +63,25 @@ header{
   text-transform: uppercase;
 }
 
-.carousel-header p{
-  color: rgb(185, 255, 255);
+.carousel-info > p{
+  padding: 0 5vw;
+  color: rgb(185, 255, 255) ;
+  font-weight: 300;
+  font-size: 1.5vw;
 
 }
 
+.carousel-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
 
+}
+
+#app-store{
+  width: 30%;
+}
 
 #logo{
   height: 120px;
