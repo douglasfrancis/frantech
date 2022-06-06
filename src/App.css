@@ -58,14 +58,14 @@ margin: 0 5vw !important;
 }
 
 .carousel-header{
-  color: rgb(185, 255, 255);
+  color: #dfeeed;
   font-size: 3vw;
   text-transform: uppercase;
 }
 
 .carousel-info > p{
   padding: 0 5vw;
-  color: rgb(185, 255, 255) ;
+  color: #dfeeed ;
   font-weight: 300;
   font-size: 1.5vw;
 
@@ -145,29 +145,24 @@ section{
   flex-direction: row;
 }
 
-form{
+#contact > form{
   display: flex;
   flex-direction: column;
-  width: 50%;
-  
-}
-input, textarea{
-  border: 1px solid grey;
-  border-radius: 7px ;
-  height: 50px;
-  min-width: 400px ;
-  max-width: 500px;
-  background-color: unset;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
-input:focus{
-  border: 3px solid #008080;
-  outline: none;
+#contact > form > div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-wb57ya-MuiFormControl-root-MuiTextField-root{
+  width: 100%;
 }
 
 #lets-chat{
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
 }
 
 .work-img{
