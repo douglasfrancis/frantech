@@ -57,13 +57,25 @@ margin: 0 5vw !important;
  
 }
 
-.carousel-header{
+#carousel-header-1{
+  color: #228888;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+#carousel-header-2{
   color: #dfeeed;
   font-size: 3vw;
   text-transform: uppercase;
 }
 
-.carousel-info > p{
+.carousel-p-1{
+  padding: 0 5vw;
+  color: #228888 ;
+  font-weight: 300;
+  font-size: 1.5vw;
+
+}
+.carousel-p-2{
   padding: 0 5vw;
   color: #dfeeed ;
   font-weight: 300;
@@ -163,6 +175,15 @@ section{
   align-items: center;
   justify-content: center;
   padding: 4rem;
+}
+
+#lets-chat > h2{
+  color: #228888;
+  font-size: 3vw;
+}
+#lets-chat > p{
+  color: #1e1e1e;
+  font-size: 1.5vw;
 }
 
 .work-img{

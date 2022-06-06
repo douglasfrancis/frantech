@@ -9,27 +9,16 @@ export default function Projects() {
   return (
    <section id='work'>
         <Carousel dynamicHeight={true} autoPlay infiniteLoop showThumbs={false}>
-                <div className='carousel-container' style={{backgroundColor: '#dfeeed'}}>
-                    
-                    <img className='carousel-img' src={desktop} style={{height:'70%'}} />
-                    <div className='carousel-info'>
-                        <h1 className='carousel-header'>Web Apps</h1>
-                        <p>Care Quality Digital helps domicilliary care companies manage staff, clients, medication and much more.</p>
+              
 
-                        <p>Dedicated apps for Management, Staff and on the App stores.</p>
-
-                        <img id='app-store' src={apple}/>
-                    </div>
-                </div>
-
-                <div className='carousel-container' id={'green'}>
+                <div className='carousel-container'>
                     
                     <img className='carousel-img' src={app}  />
                     <div className='carousel-info'>
-                    <h1 className='carousel-header'>Mobile Apps</h1>
-                        <p>Care Quality Digital helps domicilliary care companies manage staff, clients, medication and much more.</p>
+                    <h1 id='carousel-header-2'>Mobile Apps</h1>
+                        <p className='carousel-p-2'>Care Quality Digital helps domicilliary care companies manage staff, clients, medication and much more.</p>
 
-                        <p>Dedicated apps for Management, Staff and on the App stores.</p>
+                        <p className='carousel-p-2'>Dedicated apps for Management and for Staff on both App stores.</p>
 
                         <img id='app-store' src={apple}/>
                     </div>
