@@ -3,6 +3,12 @@ import { style } from '@mui/system';
 import React, { useState, useRef, useEffect} from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import './Projects.css'
+import thiago from '../Assets/thiago.png'
+import musicLogo from '../Assets/music.png'
+import cqd from '../Assets/cqd.png'
+import rotalLogo from '../Assets/rota.png'
+import uphill from '../Assets/uphill.png'
+
 
 export default function Projects() {
 
@@ -127,11 +133,11 @@ window.addEventListener('scroll', function ( event ) {
      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet magna aliquam, eleifend ante a, rutrum eros. Nulla cursus efficitur sem sit amet tincidunt. Ut varius et nibh non ullamcorper. Ut sed urna lacus. Mauris vitae mi rhoncus, dapibus massa vel, aliquam odio. Maecenas consequat vehicula vehicula. Aliquam ut malesuada sapien, a facilisis justo. Morbi et nisi sit amet ante imperdiet sollicitudin. Maecenas in bibendum quam. Duis posuere a diam non ornare. Curabitur quis tincidunt diam. Maecenas eget nulla quis diam rutrum luctus tincidunt ac tortor. Curabitur porta risus nec enim finibus dictum.
       </div>
      <div id='portfolio-track' ref={track}>
-       <div id='tequila' ref={tequila} className='portfolio-item' onClick={() => addClass(tequila)}></div>
-       <div id='music' ref={music} className='portfolio-item' onClick={() => addClass(music)}></div>
-       <div id='care' ref={care} className='portfolio-item' onClick={() => addClass(care)}></div>
-       <div id='rota' ref={rota} className='portfolio-item' onClick={() => addClass(rota)}></div>
-       <div id='dog' ref={dog} className='portfolio-item' onClick={() => addClass(dog)}></div>
+       <div id='tequila' ref={tequila} className='portfolio-item' onClick={() => addClass(tequila)}><img style={{width: '25%'}} src={thiago} alt='Thiago Logo'/></div>
+       <div id='music' ref={music} className='portfolio-item' onClick={() => addClass(music)}><img style={{width: '40%'}} src={musicLogo} alt='Music Gofer Logo'/></div>
+       <div id='care' ref={care} className='portfolio-item' onClick={() => addClass(care)}><img src={cqd} alt='Care Quality Digital Logo'/></div>
+       <div id='rota' ref={rota} className='portfolio-item' onClick={() => addClass(rota)}><img src={rotalLogo} alt='Staff Rota Logo'/></div>
+       <div id='dog' ref={dog} className='portfolio-item' onClick={() => addClass(dog)}><img src={uphill} alt='Uphill Logo'/></div>
      </div>
     </section>
   )
