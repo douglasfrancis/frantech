@@ -8,7 +8,10 @@ import musicLogo from '../Assets/music.png'
 import cqd from '../Assets/cqd.png'
 import rotalLogo from '../Assets/rota.png'
 import uphill from '../Assets/uphill.png'
-
+import marketing from '../Assets/marketing.png'
+import mobile from '../Assets/mobile.png'
+import software from '../Assets/software.png'
+import shopping from '../Assets/shopping.png'
 
 export default function Projects() {
 
@@ -55,7 +58,7 @@ const handleOnMove = e => {
   percentageRef.current = nextPercentage;
   
   track.current.animate({
-    transform: `translate(${nextPercentage}%, -40%)`
+    transform: `translate(${nextPercentage}%, -35%)`
   }, { duration: 1200, fill: "forwards" });
 
   title.current.animate({
@@ -108,7 +111,7 @@ window.addEventListener('scroll', function ( event ) {
     
     percentageRef.current = nextPercentage;
     
-    track.current.animate({transform: `translate(${nextPercentage}%, -40%)`}, { duration: 1200, fill: "forwards" });
+    track.current.animate({transform: `translate(${nextPercentage}%, -35%)`}, { duration: 1200, fill: "forwards" });
 
   title.current.animate({transform: `translate(0%, ${nextPercentage*4}%)`}, { duration: 1200, fill: "forwards" });
   title.current.style.opacity = `${100-(nextPercentage*-5)}%`
@@ -128,17 +131,40 @@ window.addEventListener('scroll', function ( event ) {
     
   return (
    <section id='portfolio-body'>
+
      <div id='portfolio-title' ref={title} >
-       <h1 style={{fontWeight:'light', letterSpacing: 3 }}>Our Work</h1>
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet magna aliquam, eleifend ante a, rutrum eros. Nulla cursus efficitur sem sit amet tincidunt. Ut varius et nibh non ullamcorper. Ut sed urna lacus. Mauris vitae mi rhoncus, dapibus massa vel, aliquam odio. Maecenas consequat vehicula vehicula. Aliquam ut malesuada sapien, a facilisis justo. Morbi et nisi sit amet ante imperdiet sollicitudin. Maecenas in bibendum quam. Duis posuere a diam non ornare. Curabitur quis tincidunt diam. Maecenas eget nulla quis diam rutrum luctus tincidunt ac tortor. Curabitur porta risus nec enim finibus dictum.
-      </div>
-     <div id='portfolio-track' ref={track}>
-       <div id='tequila' ref={tequila} className='portfolio-item' onClick={() => addClass(tequila)} ><div className='gradient' /><img style={{width: '25%'}} src={thiago} alt='Thiago Logo'/></div>
-       <div id='music' ref={music} className='portfolio-item' onClick={() => addClass(music)}><div className='gradient' /><img style={{width: '40%'}} src={musicLogo} alt='Music Gofer Logo'/></div>
-       <div id='care' ref={care} className='portfolio-item' onClick={() => addClass(care)}><div className='gradient' /><img src={cqd} alt='Care Quality Digital Logo'/></div>
-       <div id='rota' ref={rota} className='portfolio-item' onClick={() => addClass(rota)}><div className='gradient' /><img src={rotalLogo} alt='Staff Rota Logo'/></div>
-       <div id='dog' ref={dog} className='portfolio-item' onClick={() => addClass(dog)}><div className='gradient' /><img src={uphill} alt='Uphill Logo'/></div>
+       <h1 style={{fontWeight:'light', letterSpacing: 3, width: '100%', marginLeft: '1rem' }}>Our Work</h1>
+
+       <div className='work-container'>
+         <img src={mobile} alt='Mobile Icon' />
+         <h3>Mobile Apps</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+       <div className='work-container'>
+        <img src={software} alt='Software Icon' />
+        <h3>Business Systems &amp; Tools</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+       <div className='work-container'>
+        <img src={shopping} alt='Shopping Icon' />
+        <h3>Ecommerce</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+       <div className='work-container'>
+        <img src={marketing} alt='Marketing Icon' />
+        <h3>Simple Sites with Marketing Integration</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
      </div>
+
+     <div id='portfolio-track' ref={track}>
+       <div id='tequila' ref={tequila} className='portfolio-item'  ><div className='gradient' /><img style={{width: '25%'}} src={thiago} alt='Thiago Logo'/></div>
+       <div id='music' ref={music} className='portfolio-item' ><div className='gradient' /><img style={{width: '40%'}} src={musicLogo} alt='Music Gofer Logo'/></div>
+       <div id='care' ref={care} className='portfolio-item' ><div className='gradient' /><img src={cqd} alt='Care Quality Digital Logo'/></div>
+       <div id='rota' ref={rota} className='portfolio-item' ><div className='gradient' /><img src={rotalLogo} alt='Staff Rota Logo'/></div>
+       <div id='dog' ref={dog} className='portfolio-item' ><div className='gradient' /><img src={uphill} alt='Uphill Logo'/></div>
+     </div>
+
     </section>
   )
 }
