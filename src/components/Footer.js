@@ -7,10 +7,7 @@ export default function () {
   return (
     <footer>
             <p>© {year} Frantech Web Solutions Ltd</p>
-            <nav>
-                <a href="#work">Case Study</a>
-                <a href="#contact">Contact Us</a>
-            </nav>
+           
     </footer>
   )
 }

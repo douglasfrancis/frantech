@@ -1,0 +1,90 @@
+#portfolio-body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#portfolio-track > .portfolio-item{
+    min-width: 40vmin;
+    min-height: 56vmin;
+    background-position: 100% center;
+    background-size: cover;
+}
+
+#portfolio-track > .portfolio-item-open{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    z-index: 980;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 5s;
+}
+
+#tequila{
+    background-image: url('https://images.unsplash.com/photo-1634130132261-3bdf61051454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80');
+}
+#music{
+    background-image: url('https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80');
+}
+#care{
+    background-image: url('https://images.unsplash.com/photo-1587556930799-8dca6fad6d41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80');
+}
+#rota{
+    background-image: url('https://images.unsplash.com/photo-1435527173128-983b87201f4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2367&q=80');
+}
+#dog{
+    background-image: url('https://images.unsplash.com/photo-1506242395783-cec2bda110e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80');
+}
+
+
+
+#portfolio-track{
+    display: flex;
+    gap: 4vmin;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(0%, -40%);
+    user-select: none;
+    width: auto;
+    overflow: hidden;
+}
+#portfolio-track-open{
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 0;
+    top: 0;
+    user-select: none;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#fade{
+    position: sticky;
+    z-index: 999;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background-image: linear-gradient(to left, 
+        rgba(250, 250, 250, 0), 
+        rgba(250, 250, 250, 1)
+    100%);
+    margin-right: 50px;
+}
+
+#portfolio-title{
+    transition: transform 1s;
+    transform: scaleY(0);
+    width: 30%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    position: fixed;
+}

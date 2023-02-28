@@ -1,138 +1,48 @@
 * {
   box-sizing: border-box;
+  font-family: Gotham;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/Gotham-Light.otf);
+  font-display: fallback;
+}
+
+.cursor{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  background-color: rgba(17,17,17,0.6);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 999;
 }
 
 body{
   background-color: #fafafa;
   font-family: 'Roboto', sans-serif;
-  padding: 1rem;
+  height: 400vh;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
 
+
+body::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
 }
 
 html{
   scroll-behavior:smooth;
   padding: 0;
   margin: 0;
+  height: 100vh;
 }
 
-/* Header Section */
 
-header{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: white;
-  box-shadow: 0 10px 10px #cdcdcd;
-  padding: 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 12vh;
-  z-index: 999;
-}
-.carousel{
-  height: 80vh;
-  background-color: #228888;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.carousel-container{
-  height: 80vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-
-}
-
-.carousel-img{
-height: 80vh; 
-width: auto !important;
-margin: 0 5vw !important;
- 
-}
-
-#carousel-header-1{
-  color: #228888;
-  font-size: 3vw;
-  text-transform: uppercase;
-}
-#carousel-header-2{
-  color: #dfeeed;
-  font-size: 3vw;
-  text-transform: uppercase;
-}
-
-.carousel-p-1{
-  padding: 0 5vw;
-  color: #228888 ;
-  font-weight: 300;
-  font-size: 1.5vw;
-
-}
-.carousel-p-2{
-  padding: 0 5vw;
-  color: #dfeeed ;
-  font-weight: 300;
-  font-size: 1.5vw;
-
-}
-
-.carousel-info{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:center;
-
-}
-
-#app-store{
-  width: 30%;
-}
-
-#logo{
-  height: 120px;
-  display: inline;
-  border-radius: 50%;
-  box-shadow: 0 10px 10px #cdcdcd;
-
-}
-
-nav{
-  position: absolute;
-  right: 20px;
-  top: 4vh;
-}
-a{
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 0.8rem;
-  text-decoration: none;
-  margin: 0 0.5rem;
-  color: grey;
-  transition: 0.2s ease-in;
-}
-
-a:hover{
-  font-weight: 400;
-  font-size: 0.9rem;
-  color: black;
-  
-}
-#head-title{
-  font-weight: 200;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  position: absolute;
-  left: 160px;
-  top: 3vh;
-}
 
 
 main{
@@ -203,14 +113,15 @@ p{
 }
 
 footer{
-  height: 10vh;
-  width: auto;
+  height: 60px;
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  background-color: white;
-  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
   bottom: 0;
   left: 0;
-  padding: 1rem
-  
+  padding: 1rem;
+  font-size: 0.8rem
 }
