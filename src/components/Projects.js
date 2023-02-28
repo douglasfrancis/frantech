@@ -55,6 +55,8 @@ const handleOnMove = e => {
   title.current.animate({
     transform: `translate(0%, ${nextPercentage*4}%)`
   }, { duration: 1200, fill: "forwards" });
+  title.current.style.opacity = `${100-(nextPercentage*-5)}%`
+
   
   for(const image of track.current.getElementsByClassName("portfolio-item")) {
     image.animate({
@@ -103,6 +105,8 @@ window.addEventListener('scroll', function ( event ) {
     track.current.animate({transform: `translate(${nextPercentage}%, -40%)`}, { duration: 1200, fill: "forwards" });
 
   title.current.animate({transform: `translate(0%, ${nextPercentage*4}%)`}, { duration: 1200, fill: "forwards" });
+  title.current.style.opacity = `${100-(nextPercentage*-5)}%`
+
     
     for(const image of track.current.getElementsByClassName("portfolio-item")) {
       image.animate({
