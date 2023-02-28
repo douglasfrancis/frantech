@@ -9,15 +9,15 @@ function App() {
   const cursor = useRef(null)
 
   const changePosition = (e) => {
-    //cursor.current.style.top = `${e.clientY}px`;
-    //cursor.current.style.left = `${e.clientX}px`;
+    cursor.current.style.top = `${e.clientY}px`;
+    cursor.current.style.left = `${e.clientX}px`;
   }
 
 
   return (
     <div className="App" onMouseMove={changePosition}>
-      {//<div className="cursor" ref={cursor}></div>
-}
+      <div className="cursor" ref={cursor}></div>
+
       <Navbar/>
       <Projects />
       <Footer />

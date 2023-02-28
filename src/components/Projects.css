@@ -21,6 +21,8 @@
     z-index: 2;
 }
 
+
+
 #portfolio-track > .portfolio-item-open{
     min-width: 100vw;
     min-height: 100vh;
@@ -114,6 +116,7 @@
 
 .work-container{
     width: 50%;
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: top;
