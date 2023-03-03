@@ -4,9 +4,10 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { useRef, useState} from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Contact from './components/Contact';
 import Modal from '@mui/material/Modal';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const style = {
   position: 'absolute',
@@ -39,7 +40,7 @@ function App() {
   return (
     <div className="App" onMouseMove={changePosition}>
       <div className="cursor" ref={cursor}></div>
-
+      <ToastContainer position='top-center'/>
       <Navbar handleOpen={handleOpen}/>
 
       <Projects />

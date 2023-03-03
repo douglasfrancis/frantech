@@ -145,12 +145,12 @@ window.addEventListener('scroll', function ( event ) {
        <div className='work-container'>
          <img src={mobile} alt='Mobile Icon' />
          <h3>Mobile Apps</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         <p>We understand the importance of mobile technology in today's digital age and are committed to work closely with you to help you achieve your business goals through innovative and custom app development.</p>
        </div>
        <div className='work-container'>
         <img src={software} alt='Software Icon' />
         <h3>Business Systems &amp; Tools</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>In need of a web app, database solution, or enterprise software? We create tailored software solutions to help businesses thrive in today's digital world. Our approach is to best understand your unique needs and create customised software that aligns with your business objectives.</p>
        </div>
        <div className='work-container'>
         <img src={shopping} alt='Shopping Icon' />
