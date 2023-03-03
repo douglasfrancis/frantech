@@ -224,6 +224,7 @@
     #portfolio-track > .portfolio-item{
         min-width: 60vmin;
         height: 60vh;
+        background-position: center
     }
     #portfolio-title{
         display: none;
@@ -231,6 +232,7 @@
     #portfolio-track{
         left: 25%;
         overflow: scroll;
+        width: calc(100vw - 25%)
     }
     #portfolio-body{
         overflow: scroll;
