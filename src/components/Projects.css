@@ -232,4 +232,7 @@
         left: 25%;
         overflow: scroll;
     }
+    #portfolio-body{
+        overflow: scroll;
+    }
 }
