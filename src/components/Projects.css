@@ -230,5 +230,6 @@
     }
     #portfolio-track{
         left: 25%;
+        overflow: scroll;
     }
 }
