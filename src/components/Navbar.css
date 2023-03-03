@@ -87,3 +87,12 @@ header{
     margin-left: 2rem;
   }
   
+  @media only screen and (max-width: 600px) {
+    #head-title {
+      font-size: 3vw;
+      margin-left: 20px;
+    }
+    #contact-link{
+      display: none;
+    }
+  }

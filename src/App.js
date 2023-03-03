@@ -56,6 +56,8 @@ function App() {
         </Box>
       </Modal>
 
+      <button id='contact-side-btn' onClick={handleOpen}>Contact Us</button>
+
       <Footer />
     </div>
   );

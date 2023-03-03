@@ -82,3 +82,25 @@ footer{
   padding: 1rem;
   font-size: 0.8rem
 }
+
+#contact-side-btn{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact-side-btn{
+    background-color: #288;
+    color: white;
+    font-weight: bold;
+    display: block;
+    position: fixed;
+    bottom: 2rem;
+    right: 0;
+    height: 50px;
+    width: 150px;
+    border: unset;
+    transform: rotate(270deg);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    
+    z-index: 999;
+  }
+}

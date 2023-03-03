@@ -24,7 +24,7 @@ export default function Navbar({handleOpen}) {
 
 
             <nav>
-                <a onClick={handleOpen}>Contact Us</a>
+                <a id='contact-link' onClick={handleOpen}>Contact Us</a>
             </nav>
       </header>
 
