@@ -134,6 +134,10 @@
    width: 100%;
 }
 
+.work-container > p{
+    font-size: 14px;
+ }
+
 
 .scroll-icon {
 	position: fixed;

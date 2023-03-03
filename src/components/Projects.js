@@ -155,12 +155,12 @@ window.addEventListener('scroll', function ( event ) {
        <div className='work-container'>
         <img src={shopping} alt='Shopping Icon' />
         <h3>Ecommerce</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Whether you need a small online store or a comprehensive ecommerce platform, we've got you covered. We are committed to delivering high-quality solutions that meet your expectations and help you achieve your business goals.</p>
        </div>
        <div className='work-container'>
         <img src={marketing} alt='Marketing Icon' />
-        <h3>Marketing &amp; SEO Integration</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h3>Marketing Integration &amp; SEO</h3>
+        <p>We specialise in helping small businesses integrate marketing strategies into their websites and improve their search engine rankings through effective SEO. Helping you improve your online visibility and drive more traffic to your website.</p>
        </div>
      </div>
 
