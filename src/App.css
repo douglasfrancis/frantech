@@ -53,50 +53,6 @@ main{
 }
 
 
-
-section{
-  padding-top: 15vh;
-  min-height: 85vh;
-  width: 95vw;
-
-}
-
-/* Contact Section */
-
-#contact{
-  display: flex;
-  flex-direction: row;
-}
-
-#contact > form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#contact > form > div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-wb57ya-MuiFormControl-root-MuiTextField-root{
-  width: 100%;
-}
-
-#lets-chat{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem;
-}
-
-#lets-chat > h2{
-  color: #228888;
-  font-size: 3vw;
-}
-#lets-chat > p{
-  color: #1e1e1e;
-  font-size: 1.5vw;
-}
-
 .work-img{
   width: 60vw;
   margin: 0 20vw;

@@ -1,0 +1,33 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #contact > form > div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-wb57ya-MuiFormControl-root-MuiTextField-root{
+    width: 100%;
+  }
+  
+  #lets-chat{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+  }
+  
+  #lets-chat > h2{
+    color: #228888;
+    font-size: 1vw;
+  }
+  #lets-chat > p{
+    color: #1e1e1e;
+    font-size: 20px;
+  }

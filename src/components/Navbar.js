@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import logo from '../frantech.png'
 import './Navbar.css'
 
-export default function Navbar() {
+export default function Navbar({handleOpen}) {
 
     const [scrolled, setScrolled] = useState(false)
 
@@ -24,8 +24,7 @@ export default function Navbar() {
 
 
             <nav>
-                <a href="#portfolio-body">Portfolio</a>
-                <a href="#contact">Contact Us</a>
+                <a onClick={handleOpen}>Contact Us</a>
             </nav>
       </header>
 

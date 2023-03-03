@@ -54,6 +54,9 @@ header{
   nav{
     position: absolute;
     right: 20px;
+    height: 100%;
+    
+
   }
   a{
     text-transform: uppercase;
@@ -63,6 +66,11 @@ header{
     margin: 0 0.5rem;
     color: grey;
     transition: 0.2s ease-in;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
   }
   
   a:hover{

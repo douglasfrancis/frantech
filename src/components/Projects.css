@@ -96,7 +96,7 @@
     transform: scaleY(0);
     width: 40%;
     margin-left: 2rem;
-    margin-top: -2rem;
+    margin-top: 7rem;
     position: fixed;
     color: #222222;
     display: flex;
@@ -127,4 +127,76 @@
 .work-container > img{
     height: 50px;
   
+}
+
+.scroll-icon {
+	position: fixed;
+    bottom: 3rem;
+    left: 50%;
+	margin: 2em;
+	width: 40px;
+	height: 70px;
+	border: 3px solid #d3d3d3;
+	border-radius: 2em;
+}
+
+.scroll-icon.ex-3 .wheel {
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	width: .6em;
+	height: .6em;
+	background-color: #d3d3d3;
+	transform: translate(-50%, 0);
+	border-radius: .6em;
+	animation: ex-3-wheel 1s ease-in-out infinite;
+}
+.scroll-icon.ex-3 .arrow {
+	position: absolute;
+	left: 50%;
+	width: .4em;
+	height: 1em;
+	transform: translateX(-50%);
+	opacity: .3;
+	animation: ex-3-wheel-opacity 1s ease-in-out infinite;
+}
+.scroll-icon.ex-3 .arrow::before,
+.scroll-icon.ex-3 .arrow::after {
+	content: '';
+	display: block;
+	width: .4em;
+	height: .4em;
+	border-left: 1px solid #bebebe;
+	border-top: 1px solid #bebebe;
+	box-sizing: border-box;
+}
+.scroll-icon.ex-3 .arrow.up {
+	top: 10%;
+}
+.scroll-icon.ex-3 .arrow.up::before,
+.scroll-icon.ex-3 .arrow.up::after {
+	transform: rotate(45deg);
+}
+.scroll-icon.ex-3 .arrow.down {
+	top: 45%;
+}
+.scroll-icon.ex-3 .arrow.down::before,
+.scroll-icon.ex-3 .arrow.down::after {
+	transform: rotate(-135deg);
+}
+@keyframes ex-3-wheel {
+	0%, 100% {
+		transform: translate(-50%, 0);
+	}
+	50% {
+		transform: translate(-50%, 50%);
+	}
+}
+@keyframes ex-3-wheel-opacity {
+	0%, 100% {
+		opacity: .5;
+	}
+	50% {
+		opacity: .2;
+	}
 }

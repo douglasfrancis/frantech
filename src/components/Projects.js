@@ -172,6 +172,13 @@ window.addEventListener('scroll', function ( event ) {
        <div id='dog' ref={dog} className='portfolio-item' onClick={()=>openLink('https://uphillndowndale.co.uk')}><div className='gradient' /><img src={uphill} alt='Uphill Logo'/></div>
      </div>
 
+     <div class="scroll-icon ex-3">
+      <span class="wheel"></span>
+      <span class="arrow up"></span>
+      <span class="arrow down"></span>
+    </div>
+
+
     </section>
   )
 }
