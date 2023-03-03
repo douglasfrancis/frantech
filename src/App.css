@@ -110,5 +110,14 @@ footer{
   footer{
     display: none;
   }
+
+  body{
+    cursor: default;
+    height: 100vh;
+  }
+
+  .cursor{
+    display: none;
+  }
  
 }

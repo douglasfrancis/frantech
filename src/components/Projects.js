@@ -113,8 +113,8 @@ window.addEventListener('scroll', function ( event ) {
     
     track.current.animate({transform: `translate(${nextPercentage}%, -35%)`}, { duration: 1200, fill: "forwards" });
 
-  title.current.animate({transform: `translate(0%, ${nextPercentage*4}%)`}, { duration: 1200, fill: "forwards" });
-  title.current.style.opacity = `${100-(nextPercentage*-5)}%`
+    title.current.animate({transform: `translate(0%, ${nextPercentage*4}%)`}, { duration: 1200, fill: "forwards" });
+    title.current.style.opacity = `${100-(nextPercentage*-5)}%`
 
     
     for(const image of track.current.getElementsByClassName("portfolio-item")) {
@@ -124,10 +124,6 @@ window.addEventListener('scroll', function ( event ) {
     }
   });
 
-  const addClass = (item) =>{
-    item.current.classList.toggle('portfolio-item-open')
-    track.current.classList.toggle('portfolio-track-open')
-  }
 
   const openLink = (url) => {
     let link = document.createElement("a")

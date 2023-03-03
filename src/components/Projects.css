@@ -219,7 +219,7 @@
 
 @media only screen and (max-width: 600px) {
     .scroll-icon{
-        bottom: 0;
+        display: none;
     }
 
     #portfolio-track > .portfolio-item{
