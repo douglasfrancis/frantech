@@ -230,9 +230,9 @@
         display: none;
     }
     #portfolio-track{
-        left: 25%;
+        left: 5%;
         overflow: scroll;
-        width: calc(100vw - 25%)
+        width: calc(100vw - 5%)
     }
     #portfolio-body{
         overflow: scroll;
