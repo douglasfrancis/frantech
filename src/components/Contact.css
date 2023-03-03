@@ -43,6 +43,10 @@
     border: unset;
   }
 
+  #send-btn:hover{
+    cursor: pointer;
+  }
+
   .form-input, textarea{
     width: 100%;
     margin: 5px;
