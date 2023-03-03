@@ -65,8 +65,7 @@
     gap: 4vmin;
     position: fixed;
     left: 50%;
-    top: 40%;
-    transform: translate(0%, -35%);
+    top: 20%;
     user-select: none;
     width: auto;
     overflow: hidden;

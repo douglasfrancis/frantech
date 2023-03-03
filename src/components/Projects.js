@@ -58,7 +58,7 @@ const handleOnMove = e => {
   percentageRef.current = nextPercentage;
   
   track.current.animate({
-    transform: `translate(${nextPercentage}%, -35%)`
+    transform: `translate(${nextPercentage}%, 0%)`
   }, { duration: 1200, fill: "forwards" });
 
   title.current.animate({
@@ -111,7 +111,7 @@ window.addEventListener('scroll', function ( event ) {
     
     percentageRef.current = nextPercentage;
     
-    track.current.animate({transform: `translate(${nextPercentage}%, -35%)`}, { duration: 1200, fill: "forwards" });
+    track.current.animate({transform: `translate(${nextPercentage}%, 0%)`}, { duration: 1200, fill: "forwards" });
 
     title.current.animate({transform: `translate(0%, ${nextPercentage*4}%)`}, { duration: 1200, fill: "forwards" });
     title.current.style.opacity = `${100-(nextPercentage*-5)}%`
