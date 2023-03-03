@@ -46,6 +46,7 @@ const handleOnUp = () => {
 }
 
 const handleOnMove = e => {
+  if (window.screen.width > 780){
   if(mouse.current === "0") return;
   
   let mouseDelta = mouse.current - e.clientX
@@ -73,6 +74,7 @@ const handleOnMove = e => {
     }, { duration: 1200, fill: "forwards" });
   }
 }
+}
 
   window.onmousedown = e => handleOnDown(e);
   window.ontouchstart = e => handleOnDown(e.touches[0]);
@@ -86,6 +88,7 @@ let isScrolling;
 
 // Listen for scroll events
 window.addEventListener('scroll', function ( event ) {
+  if (window.screen.width > 780){
 
 	// Clear our timeout throughout the scroll
 	window.clearTimeout( isScrolling );
@@ -96,10 +99,12 @@ window.addEventListener('scroll', function ( event ) {
     scroll.current = window.pageYOffset
     prevPercentageRef.current = percentageRef.current
 	}, 66);
+}
 
 }, false);
 
   window.addEventListener('scroll', () => {  
+    if (window.screen.width > 780){
     if(scroll.current === "0") return;
 
     let scrollDelta = window.pageYOffset - scroll.current 
@@ -122,6 +127,7 @@ window.addEventListener('scroll', function ( event ) {
         backgroundPosition: `${100 + nextPercentage}% center`
       }, { duration: 1200, fill: "forwards" });
     }
+  }
   });
 
 
