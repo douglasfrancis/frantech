@@ -221,4 +221,15 @@
     .scroll-icon{
         bottom: 0;
     }
+
+    #portfolio-track > .portfolio-item{
+        min-width: 60vmin;
+        height: 60vh;
+    }
+    #portfolio-title{
+        display: none;
+    }
+    #portfolio-track{
+        left: 25%;
+    }
 }
