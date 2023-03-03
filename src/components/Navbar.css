@@ -74,9 +74,9 @@ header{
   }
   
   a:hover{
-    font-weight: 400;
-    font-size: 0.9rem;
-    color: black;
+    transform: scale(1.08);
+    transition: 0.5s;
+    color: #228888;
     
   }
   #head-title{

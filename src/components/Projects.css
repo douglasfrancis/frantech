@@ -95,8 +95,8 @@
     transition: transform 1s;
     transform: scaleY(0);
     width: 40%;
-    margin-left: 2rem;
-    margin-top: 7rem;
+    margin-left: 4rem;
+    margin-top: 8rem;
     position: fixed;
     color: #222222;
     display: flex;
@@ -118,16 +118,22 @@
     width: 50%;
     min-width: 250px;
     display: flex;
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
     padding: 1rem;
 }
 
 .work-container > img{
     height: 50px;
-  
+    align-self: center;
+    margin-bottom: 1rem;
 }
+
+.work-container > h3{
+   width: 100%;
+}
+
 
 .scroll-icon {
 	position: fixed;
