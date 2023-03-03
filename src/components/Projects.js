@@ -166,7 +166,7 @@ window.addEventListener('scroll', function ( event ) {
 
      <div id='portfolio-track' ref={track}>
        <div id='tequila' ref={tequila} className='portfolio-item' onClick={()=>openLink('https://thiagotequila.com')} ><div className='gradient' /><img style={{width: '25%'}} src={thiago} alt='Thiago Logo'/></div>
-       <div id='music' ref={music} className='portfolio-item'onClick={()=>openLink('https://www.musicgofer.com')} ><div className='gradient' /><img style={{width: '40%'}} src={musicLogo} alt='Music Gofer Logo'/></div>
+       <div id='music' ref={music} className='portfolio-item'onClick={()=>openLink('https://www.musicgofer.com')} ><div className='gradient' /><img id='music-logo' style={{width: '40%'}} src={musicLogo} alt='Music Gofer Logo'/></div>
        <div id='care' ref={care} className='portfolio-item' onClick={()=>openLink('https://www.cqd.org.uk')}><div className='gradient' /><img src={cqd} alt='Care Quality Digital Logo'/></div>
        <div id='rota' ref={rota} className='portfolio-item' onClick={()=>openLink('https://www.staff-rota.co.uk')}><div className='gradient' /><img src={rotalLogo} alt='Staff Rota Logo'/></div>
        <div id='dog' ref={dog} className='portfolio-item' onClick={()=>openLink('https://uphillndowndale.co.uk')}><div className='gradient' /><img src={uphill} alt='Uphill Logo'/></div>

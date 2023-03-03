@@ -16,6 +16,7 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: 700,
   maxWidth: '90vw',
+  maxHeight: '90vh',
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,

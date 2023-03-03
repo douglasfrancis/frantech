@@ -22,6 +22,10 @@
     z-index: 2;
 }
 
+#music-logo{
+    min-width: 100px;
+}
+
 
 
 #portfolio-track > .portfolio-item-open{
@@ -211,4 +215,10 @@
 	50% {
 		opacity: .2;
 	}
+}
+
+@media only screen and (max-width: 600px) {
+    .scroll-icon{
+        bottom: 0;
+    }
 }
