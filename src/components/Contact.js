@@ -58,7 +58,7 @@ export default function Contact() {
     <input className='form-input' ref={number} placeholder='Number' name='Number'/>
     <input className='form-input' ref={email} placeholder='Email' name='Email'/>
     <textarea placeholder='Message' ref={msg} name='Msg'/>
-    <button id='send-btn' style={{backgroundColor:'#288'}} disabled={loading}>{loading? 'Sending...': 'Send'}</button>
+    <button className='secondary-btn' disabled={loading}>{loading? 'Sending...': 'Send'}</button>
 
     <p style={{fontSize: '0.8rem'}}>By submitting this form, I consent to Frantech Web Solutions storing the above information to contact me regarding any services offered by Frantech Web Solutions.</p>
 

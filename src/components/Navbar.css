@@ -7,7 +7,6 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
     padding: 1rem;
     position: fixed;
     top: 0;
@@ -25,6 +24,8 @@ header{
   .navbar-scrolled{
     height: 80px;
     transition: 0.5s;
+    background-color: rgba(17, 17, 17, 0.9);
+
 
   }
 
@@ -38,7 +39,6 @@ header{
   .logo{
     height: 50px;
     border-radius: 50%;
-    box-shadow: 0 10px 10px #cdcdcd;
     transition: 0.5s;
   
   }
@@ -46,7 +46,6 @@ header{
   .logo-scrolled{
     height: 50px;
     border-radius: 50%;
-    box-shadow: 0 10px 10px #cdcdcd;
     transition: 0.5s;
 
   }
@@ -64,7 +63,7 @@ header{
     font-size: 0.8rem;
     text-decoration: none;
     margin: 0 0.5rem;
-    color: grey;
+    color: #dfdfdf;
     transition: 0.2s ease-in;
     height: 100%;
     display: inline-flex;
@@ -83,8 +82,12 @@ header{
     font-weight: 200;
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    font-family: Criteria;
+    font-size: 28px;
+    margin: 0;
     margin-left: 2rem;
+    color: #dfdfdf;
+
   }
   
   @media only screen and (max-width: 600px) {

@@ -1,0 +1,31 @@
+#how-we-do-it{
+    background-color: #1e1e1e;
+    width: 100vw;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider{
+    min-height: 300px;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #dfdfdf;
+    height: 100%;
+    width: 30vw;
+    margin: 2rem;
+}
+
+.slide p:first-of-type{
+    text-transform: uppercase;
+}
+

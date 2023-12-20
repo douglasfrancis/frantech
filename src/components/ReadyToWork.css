@@ -1,0 +1,20 @@
+#ready{
+    width: 100vw;
+    height: 90vh;
+    min-height: 700px;
+    background-image: url('../Assets/ready.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ready h2{
+    color: white;
+    margin: 0;
+    font-size: 82px;
+    font-family: Criteria;
+    text-align: center;
+}

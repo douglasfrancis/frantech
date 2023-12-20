@@ -18,7 +18,7 @@ export default function Navbar({handleOpen}) {
       <header className={scrolled ? 'navbar-scrolled' : 'navbar'}>
             <div id='title-container'>
                 <img className={scrolled ? 'logo-scrolled' : 'logo'} src={logo} />
-                <h2 id="head-title">Frantech Web Solutions</h2>
+                <h2 id="head-title">Frantech</h2>
 
             </div>
 

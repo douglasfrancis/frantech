@@ -3,13 +3,16 @@
     flex-direction: column;
     cursor: default;
     margin: 1rem 2rem;
+    z-index: 999;
   }
+
   
   #contact > form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   
   #contact > form > div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-wb57ya-MuiFormControl-root-MuiTextField-root{
@@ -26,7 +29,6 @@
   }
   
   #lets-chat > h2{
-    color: #228888;
     margin: 1rem 0 0 0 ;
     
   }
@@ -35,31 +37,23 @@
     font-size:18px;
   }
 
-  #send-btn{
-    background-color: #228888;
-    color: white;
-    margin: 1rem;
-    font-weight: bold;
-    padding: 1rem;
-    width: 150px;
-    border: unset;
-  }
-
-  #send-btn:hover{
-    cursor: pointer;
-  }
-
   .form-input, textarea{
     width: 100%;
     margin: 5px;
     height: 50px;
     padding-left: 1rem;
     font-size: 16px;
+    border-image-source: linear-gradient(45deg, rgba(250, 250, 250, 0), rgba(17, 16, 17, 1));
+    border-style: solid;
+    border-image-slice: 1;
+    border-width: 1px;
+
   }
 
   textarea{
     height: 200px;
     padding-top: 1rem;
+    resize: none;
   }
 
   @media only screen and (max-width: 600px) {
