@@ -1,6 +1,6 @@
 #what-we-do{
     width: 100vw;
-    height: 90vh;
+    min-height: 90vh;
     min-height: 750px;
     background-image: url('../Assets/whatwedo.jpg');
     background-position: center;
@@ -92,8 +92,13 @@
     margin: 0;
 
 }
+@media only screen and (max-width: 1048px) {
+    .accordion-info-open{
+        height: 250px;
+    }
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     #what-we-do h2{
         font-size: 48px;
     }
@@ -106,12 +111,12 @@
     }
 
     .accordion-info-open{
-        height: 330px;
+        height: 400px;
     }
   }
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 400px){
     .accordion-info-open{
-        height: 450px;
+        height: 550px;
     }
   }

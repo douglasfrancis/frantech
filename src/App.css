@@ -106,7 +106,8 @@ footer{
   justify-content: space-between;
   padding: 1rem;
   font-size: 0.8rem;
-  background: linear-gradient(to right, #1e1e1e, #1e1e1e, #e7e7e7, #1e1e1e, #1e1e1e)
+  background-color: #1e1e1e;
+  color: #dfdfdf;
 }
 
 #contact-side-btn{

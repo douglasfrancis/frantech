@@ -6,15 +6,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     padding: 1rem;
 }
 
 #slider{
     min-height: 300px;
-    width: 100%;
+    width: calc(100vw - 2rem);
     max-width: 1300px;
     display: flex;
+    overflow: scroll;
+
 }
 
 .slide{
@@ -25,6 +26,7 @@
     height: 100%;
     width: 30vw;
     margin: 2rem;
+    flex-shrink: 0;
 }
 
 .slide p:first-of-type{
@@ -34,5 +36,10 @@
 @media only screen and (max-width: 600px) {
     #how-we-do-it{
         font-size: 56px;
+    }
+
+    .slide{
+        width: 90%;
+        align-items: baseline;
     }
 }
