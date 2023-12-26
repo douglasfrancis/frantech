@@ -1,5 +1,5 @@
 import React from 'react'
-import linkedin from '../Assets/linkedin.png'
+import linkedin from '../Assets/linkedin.webp'
 
 export default function () {
 
