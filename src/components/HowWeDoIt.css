@@ -1,6 +1,6 @@
 #how-we-do-it{
     background-color: #1e1e1e;
-    width: calc(100vw -2rem);
+    width: 100vw;
     min-height: 650px;
     display: flex;
     flex-direction: column;
