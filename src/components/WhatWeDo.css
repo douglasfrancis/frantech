@@ -6,7 +6,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -107,5 +107,11 @@
 
     .accordion-info-open{
         height: 330px;
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    .accordion-info-open{
+        height: 450px;
     }
   }
