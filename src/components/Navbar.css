@@ -38,6 +38,7 @@ header{
 
   .logo{
     height: 50px;
+    width: 50px;
     border-radius: 50%;
     transition: 0.5s;
   
