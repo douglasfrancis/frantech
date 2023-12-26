@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import logo from '../Assets/frantech.png'
+import logo from '../Assets/logo.webp'
 import './Navbar.css'
 
 export default function Navbar({handleOpen}) {
