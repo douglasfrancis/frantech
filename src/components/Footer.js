@@ -6,7 +6,7 @@ export default function () {
     let year = date.getFullYear()
   return (
     <footer>
-            <p>© {year} Frantech Web Solutions Ltd</p>
+            <p style={{fontSize: 16}}>© {year} Frantech Web Solutions Ltd</p>
            
     </footer>
   )

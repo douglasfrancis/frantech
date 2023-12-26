@@ -1,5 +1,5 @@
 #what-we-do{
-    width: 100vw;
+    width: calc(100vw -2rem);
     min-height: 90vh;
     min-height: 750px;
     background-image: url('../Assets/whatwedo.jpg');
