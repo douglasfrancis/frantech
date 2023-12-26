@@ -6,6 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    padding: 1rem;
 }
 
 #slider{
@@ -29,3 +31,8 @@
     text-transform: uppercase;
 }
 
+@media only screen and (max-width: 600px) {
+    #how-we-do-it{
+        font-size: 56px;
+    }
+}

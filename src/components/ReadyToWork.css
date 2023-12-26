@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 #ready h2{
@@ -17,4 +18,10 @@
     font-size: 82px;
     font-family: Criteria;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #ready h2{
+        font-size: 56px;
+    }
 }

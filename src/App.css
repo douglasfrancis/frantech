@@ -176,8 +176,9 @@ footer{
 
   }
 
-  footer{
-    display: none;
+ 
+  .gradient-text{
+    font-size: 64px;
   }
 
   body{

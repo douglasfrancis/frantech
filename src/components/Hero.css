@@ -5,7 +5,7 @@
     background-image: url('../Assets/KEYBOARD.png');
     background-position: center;
     background-size: cover;
-    padding-top: 100px;
+    padding: 100px 2rem;
     position: relative;
 }
 
@@ -20,7 +20,8 @@
     align-items: center;
     position: absolute;
     top: 0;
-    padding-top: 100px;
+    left: 0;
+    padding: 100px 2rem;
 
 }
 
@@ -30,9 +31,16 @@
     margin: 0;
     font-family: Criteria;
     text-transform: uppercase;
+    text-align: center;
 
 }
 
 #hero h1{
     font-size: 96px;
+}
+
+@media only screen and (max-width: 600px) {
+    #hero h2{
+        font-size: 56px;
+    }
 }
