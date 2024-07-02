@@ -8,7 +8,7 @@ export default function HowWeDoIt({ handleOpen }) {
 
         <div id='slider'>
           <div className='slide'>
-            <p>1. Free Consulation</p>
+            <p className='step-header'>1. Free Consulation</p>
 
             <p>
             Our complimentary web and app design consultation is a collaborative exploration where we delve into your business's brand, vision, and objectives. In this session, our expert team engages in a comprehensive discussion to understand your company's identity, values, and target audience. We analyze existing branding elements and explore the functionality and features you envision for your website or app.
@@ -19,7 +19,7 @@ export default function HowWeDoIt({ handleOpen }) {
           </div>
 
           <div className='slide'>
-            <p>2. Design Stage</p>
+            <p className='step-header'>2. Design Stage</p>
             <p>
             In the design stage of our process, our skilled designers will visually bring your vision to life based on the insights gathered during the initial consultation. Using your company's brand elements, values, and specified functionalities, we create a comprehensive visual representation of your website or app ensuring the design aligns seamlessly with your brand identity and resonates with your target audience.
             </p>
@@ -29,7 +29,7 @@ export default function HowWeDoIt({ handleOpen }) {
           </div>
 
           <div className='slide'>
-            <p>3. Development</p>
+            <p className='step-header'>3. Development</p>
             <p>
             In the development stage, we take the approved design and translate it into a fully functional website or app. Our experienced development team employs cutting-edge technologies and best practices to bring the design to life, ensuring seamless navigation, responsiveness, and optimal user experience.
             </p>
@@ -38,7 +38,7 @@ export default function HowWeDoIt({ handleOpen }) {
           </div>
 
           <div className='slide'>
-            <p>4. Handover</p>
+            <p className='step-header'>4. Handover</p>
             <p>
             In the handover stage, we facilitate a seamless transition from development to deployment, ensuring your team is well-equipped to manage and maximize the potential of your newly created website or app. This phase encompasses any necessary training sessions to familiarise your staff with the platform's features and functionalities.
             </p>

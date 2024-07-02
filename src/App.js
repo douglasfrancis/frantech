@@ -20,17 +20,9 @@ function App() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  const cursor = useRef(null)
-
-  const changePosition = (e) => {
-    cursor.current.style.top = `${e.clientY}px`;
-    cursor.current.style.left = `${e.clientX}px`;
-  }
-
 
   return (
-    <div className="App" onMouseMove={changePosition}>
-      <div className="cursor" ref={cursor}></div>
+    <div className="App">
       <ToastContainer position='top-center'/>
       <Navbar handleOpen={handleOpen}/>
       <Hero handleOpen={handleOpen}/>

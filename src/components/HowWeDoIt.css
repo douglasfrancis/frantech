@@ -29,6 +29,13 @@
     flex-shrink: 0;
 }
 
+.step-header{
+
+    font-weight: 900;
+    font-family: 'Criteria';
+    
+}
+
 .slide p:first-of-type{
     text-transform: uppercase;
 }

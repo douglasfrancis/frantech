@@ -92,6 +92,10 @@
     margin: 0;
 
 }
+
+.accordion:hover{
+    cursor: pointer;
+}
 @media only screen and (max-width: 1048px) {
     .accordion-info-open{
         height: 250px;
